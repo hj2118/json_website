@@ -1,6 +1,6 @@
 let outputElement = document.getElementById('outputElement');
 let outputParagraph = document.getElementById('outputParagraph');
-let contentGridElement = document.getElementById('contentGridElement');
+let contentGridElement = document.getElementById('contentGrid');
 
 let jsonDatabase = [
   {
@@ -13,7 +13,7 @@ let jsonDatabase = [
   },
   {
     "name" : "Hook",
-    "flag" : "hook.jpg",
+    "flag" : "hook.png",
     "color" : "#ff0000",
     "picture_url" : "hook1.jpg",
     "leader" : "Aiki",
@@ -21,8 +21,8 @@ let jsonDatabase = [
   },
   {
     "name" : "LaChica",
-    "flag" : "lachica.jfif",
-    "color" : "ffb8cc",
+    "flag" : "lachica.png",
+    "color" : "#ffb8cc",
     "picture_url" : "lachica1.jpeg",
     "leader" : "Gabee",
     "members" : ["Rian", "Simeez", "Peanut", "H_1"]
