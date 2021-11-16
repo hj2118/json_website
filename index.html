@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>SWF</title>
   </head>
@@ -10,7 +12,7 @@
       <img id="heroImage" src="logo.png">
     </div>
 
-    <div id="outputElement">
+    <div class="outputElement">
       <h1 id="title">Street Woman Fighter</h1>
 
       <p id="outputParagraph">
@@ -18,16 +20,34 @@
         <br>
         Eight female dance crews fight for the position of Korea's best female dance crew.
         <br>
-        The following four crews went upto final.
+        These crews are listed according to their rankings.
       </p>
+    </div>
+    <hr>
+    <div class="outputElement">
+      <div id="contentGrid">
+      </div>
     </div>
 
     <hr>
 
-    <div id="contentGrid">
-
+    <div class="outputElement">
+      <p>Click the images below to watch each crew's performace video.</p>
+      <div class="section">
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=GdhJnVSbEts"><img src="holybang.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=rYGGe2JA2ts"><img src="hook.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=5VgTK6kmZ7c"><img src="lachica.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=BHp-vXs6iFY"><img src="coca.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=iS9UqrqYlok"><img src="ygx.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=EvVzDMBjDyg"><img src="prowdmon.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=YyPi7uBIWa8"><img src="want.png"></a>
+        <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=8YCsATrGBew"><img src="wayb.jfif"></a>
+      </div>
     </div>
+    <br>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

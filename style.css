@@ -29,9 +29,10 @@ body * {
 h1 {
   font-family: 'Bebas Neue', cursive;
   /* font-family: 'Staatliches', cursive; */
+  color: #e2e2e2;
 }
 
-#outputElement {
+.outputElement {
   padding: 2vmin;
   background-color: #1E1E1E;
   color: #CFCFCF;
@@ -42,10 +43,10 @@ h1 {
   /* flex-direction: row; */
   /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1vmin;
-  grid-row-gap: 1vmin;
+  grid-column-gap: 4vmin;
+  grid-row-gap: 4vmin;
   background-color: #1E1E1E;
-  padding: 2vmin;
+  padding: 4vmin;
   font-size: 1.5rem;
 }
 
@@ -64,6 +65,9 @@ h1 {
 
 .contentItem ul {
   flex-grow: 1;
+  list-style-type: none;
+  padding: 0px;
+  line-height: 2.3rem;
 }
 
 .footerImageContainer {
@@ -80,4 +84,19 @@ h1 {
   height: 350px;
   object-fit: cover;
   border-radius: 0.25vmin;
+}
+
+.section {
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3vmin;
+  grid-row-gap: 3vmin;
+  margin: 4vmin;
+  /* margin-right: 4vmin; */
+}
+
+img {
+  width: 100%;
 }
